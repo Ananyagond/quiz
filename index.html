@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="next_question()"
+    style="background-color: rgb(78, 78, 229);">
+    <div class="app">
+    <h1>Simple Quiz</h1>
+    <hr>
+    <div id="div_que">
+    <p class="question" id="queue"></p>
+    <button class="test" id="op1" onclick="checkanswer(this.id)">Shark</button>
+    <button class="test" id="op2" onclick="checkanswer(this.id)">Blue Whale</button>
+    <button class="test" id="op3" onclick="checkanswer(this.id)">Elephant</button>
+    <button class="test" id="op4" onclick="checkanswer(this.id)">Giraffe</button>
+    <button onclick=next_question() class="next" >Next</button>
+    </div>
+    <div id="div_result">
+        <p id="score">Your Score card is </p>
+        <button  class="next" >Play Again</button>
+    </div>
+</div>
+    <label for="id" id="lblid">-1</label>
+</body>
+</html>

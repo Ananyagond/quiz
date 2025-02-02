@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(78, 78, 229);
+}
+.app{
+    background-color:   aliceblue;
+    margin:10% 20% 10% 30%;
+    width: 40%;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.test{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px grey;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+.test:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+}
+.next{
+    background-color:rgb(1, 1, 127);
+        margin-top: 10px;
+        color: white;
+        width: 20%;
+        height: 30px;
+        margin-top: 20px;
+        margin:3% 20% 10% 40%;
+}
+.div_que{
+    display: block;
+}
+.div_result{
+    display: none;
+}
